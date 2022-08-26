@@ -75,6 +75,7 @@ public class ORMUnitTestCase extends BaseCoreFunctionalTestCase {
 
 		s.remove(e2_1);
 
+		s.flush();
 		tx.commit();
 	}
 
